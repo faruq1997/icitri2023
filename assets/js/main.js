@@ -128,3 +128,10 @@ setInterval(function () {
     secs_span.innerHTML = '<span class="number">' + seconds + '</span>' + '<span class="unit">Secs</span>'; 
  
 }, 1000);
+
+/* ==== Vanilla JS Back To Top Widget ====== */
+/* Ref: https://github.com/vfeskov/vanilla-back-to-top */
+addBackToTop({
+  cornerOffset: 15, // px
+  id:'back-to-top',
+});
